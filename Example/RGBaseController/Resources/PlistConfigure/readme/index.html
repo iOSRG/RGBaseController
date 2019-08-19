@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<style>
+    h3 {
+        color: red;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport"-->
+          <!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+    <!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+    <title>Document</title>
+</head>
+<body>
+
+
+<h2>navigationBar.plist的属性</h2>
+<p>
+    关于navigationBar的一些配置
+</p>
+
+<h3>TintColor</h3>
+<p>
+    tintColor用来设置导航栏上BarButtonItem的颜色的,
+</p>
+
+<h3>NavigationBarTitleSetting</h3>
+<p>
+    设置导航栏标题字体型号和字体大小,颜色
+</p>
+
+<h3>BarTintColor</h3>
+<p>
+    当Translucent属性为YES时, 可以通过self.navigationBar.barTintColor = [UIColor orangeColor]; (注意self是导航控制器)设置导航栏的背景颜色, <br>,但是在translucent为YES时, 设置的背景颜色渲染时会有色差,如果想要导航栏背景颜色没有色差,可将translucent设置为NO
+
+</p>
+
+<h3>Translucent</h3>
+<p>
+    translucent属性用来设置导航栏是否有穿透效果, 默认为YES
+    当translucent设置为YES时, 如果要修改导航栏的颜色,
+    则用self.navigationBar.barTintColor = [UIColor orangeColor]; (注意self是导航控制器)
+
+    <br>但是在translucent为YES时, 设置的背景颜色渲染时会有色差
+    如果想要导航栏背景颜色没有色差,可将translucent设置为NO
+
+    translucent还有一个功能就是在有导航栏的页面,
+    translucent为NO时,
+    滚动视图的原点是以导航栏底部为起点,而且通过
+    self.automaticallyAdjustsScrollViewInsets = NO
+    或者
+    if (@available(iOS 11, *)) {
+    [UIScrollView appearance].contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+    }设置也不会改变原点的位置
+</p>
+
+</body>
+</html>

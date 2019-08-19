@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TabBarItemSelectedColor</key>
+	<string>50,255,50</string>
+	<key>BackImageName</key>
+	<string>login-return</string>
+	<key>Submodule</key>
+	<array>
+		<dict>
+			<key>ClassName</key>
+			<string>HomeViewController</string>
+			<key>Title</key>
+			<string>首页</string>
+			<key>NormalImage</key>
+			<string>home_g</string>
+			<key>SelectedImage</key>
+			<string>home</string>
+		</dict>
+		<dict>
+			<key>ClassName</key>
+			<string>MeViewController</string>
+			<key>Title</key>
+			<string>我的</string>
+			<key>NormalImage</key>
+			<string>my_g</string>
+			<key>SelectedImage</key>
+			<string>my</string>
+		</dict>
+	</array>
+</dict>
+</plist>

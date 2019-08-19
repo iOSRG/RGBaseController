@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TintColor</key>
+	<string>50,50,255</string>
+	<key>NavigationBarTitleSetting</key>
+	<dict>
+		<key>Color</key>
+		<string>50,50,50</string>
+		<key>FontSize</key>
+		<string>20</string>
+		<key>FontName</key>
+		<string>PingFangSC-Medium</string>
+	</dict>
+	<key>BarTintColor</key>
+	<string>255,50,50</string>
+	<key>Translucent</key>
+	<true/>
+</dict>
+</plist>

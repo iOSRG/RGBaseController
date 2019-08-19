@@ -1,0 +1,16 @@
+PODS:
+  - RGBaseController (0.1.0)
+
+DEPENDENCIES:
+  - RGBaseController (from `../`)
+
+EXTERNAL SOURCES:
+  RGBaseController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RGBaseController: 92cae642baff9d60fd64bdc624254707458fb0e1
+
+PODFILE CHECKSUM: 19f62799175ed557feec538129711d33a5ea3cff
+
+COCOAPODS: 1.5.0

@@ -15,7 +15,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* RGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* RGAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* RGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* RGViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -24,6 +23,16 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		F11EA68B230A361000873BCA /* BaseControllerConfigure.plist in Resources */ = {isa = PBXBuildFile; fileRef = F11EA689230A361000873BCA /* BaseControllerConfigure.plist */; };
+		F11EA68C230A361000873BCA /* navigationBar.plist in Resources */ = {isa = PBXBuildFile; fileRef = F11EA68A230A361000873BCA /* navigationBar.plist */; };
+		F11EA68F230A385A00873BCA /* home@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11EA68E230A385A00873BCA /* home@3x.png */; };
+		F11EA691230A386D00873BCA /* home_g@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11EA690230A386D00873BCA /* home_g@3x.png */; };
+		F11EA693230A387300873BCA /* my@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11EA692230A387300873BCA /* my@3x.png */; };
+		F11EA695230A387A00873BCA /* my_g@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11EA694230A387A00873BCA /* my_g@3x.png */; };
+		F11EA698230A38CB00873BCA /* login-return@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11EA697230A38CB00873BCA /* login-return@3x.png */; };
+		F11EA69B230A3D1C00873BCA /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = F11EA69A230A3D1C00873BCA /* index.html */; };
+		F1DC4E0F230252360073D7D4 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DC4E0E230252360073D7D4 /* HomeViewController.m */; };
+		F1DC4E12230253E60073D7D4 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DC4E11230253E60073D7D4 /* MeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +47,8 @@
 
 /* Begin PBXFileReference section */
 		31DC8A96736D54EA07A9AD79 /* Pods_RGBaseController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RGBaseController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		389EF4BC569D1A05116B73DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		4B50476F17CA0B938CC15A57 /* RGBaseController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RGBaseController.podspec; path = ../RGBaseController.podspec; sourceTree = "<group>"; };
+		389EF4BC569D1A05116B73DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4B50476F17CA0B938CC15A57 /* RGBaseController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RGBaseController.podspec; path = ../RGBaseController.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* RGBaseController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGBaseController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -50,8 +59,6 @@
 		6003F59B195388D20070C39A /* RGBaseController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RGBaseController-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* RGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* RGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* RGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* RGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* RGBaseController_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGBaseController_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -66,7 +73,19 @@
 		A6FF0D0DFEF39A6FC9D51DC8 /* Pods_RGBaseController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RGBaseController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C635D6720F01FECCB0BDFB23 /* Pods-RGBaseController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RGBaseController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RGBaseController_Example/Pods-RGBaseController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E76472D0D3C1E8C62851FDED /* Pods-RGBaseController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RGBaseController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RGBaseController_Tests/Pods-RGBaseController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F6FBA38ADB715F4AE6BAEE22 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F11EA689230A361000873BCA /* BaseControllerConfigure.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BaseControllerConfigure.plist; sourceTree = "<group>"; };
+		F11EA68A230A361000873BCA /* navigationBar.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = navigationBar.plist; sourceTree = "<group>"; };
+		F11EA68E230A385A00873BCA /* home@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@3x.png"; sourceTree = "<group>"; };
+		F11EA690230A386D00873BCA /* home_g@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_g@3x.png"; sourceTree = "<group>"; };
+		F11EA692230A387300873BCA /* my@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my@3x.png"; sourceTree = "<group>"; };
+		F11EA694230A387A00873BCA /* my_g@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my_g@3x.png"; sourceTree = "<group>"; };
+		F11EA697230A38CB00873BCA /* login-return@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-return@3x.png"; sourceTree = "<group>"; };
+		F11EA69A230A3D1C00873BCA /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		F1DC4E0D230252360073D7D4 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		F1DC4E0E230252360073D7D4 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		F1DC4E10230253E60073D7D4 /* MeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		F1DC4E11230253E60073D7D4 /* MeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		F6FBA38ADB715F4AE6BAEE22 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,11 +151,11 @@
 		6003F593195388D20070C39A /* Example for RGBaseController */ = {
 			isa = PBXGroup;
 			children = (
+				F11EA686230A361000873BCA /* Resources */,
+				F1DC4E0C2302521F0073D7D4 /* Section */,
 				6003F59C195388D20070C39A /* RGAppDelegate.h */,
 				6003F59D195388D20070C39A /* RGAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* RGViewController.h */,
-				6003F5A6195388D20070C39A /* RGViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -194,6 +213,72 @@
 				E76472D0D3C1E8C62851FDED /* Pods-RGBaseController_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F11EA686230A361000873BCA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F11EA687230A361000873BCA /* images */,
+				F11EA688230A361000873BCA /* PlistConfigure */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F11EA687230A361000873BCA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F11EA696230A387F00873BCA /* backReturnImage */,
+				F11EA68D230A385300873BCA /* tabbar */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		F11EA688230A361000873BCA /* PlistConfigure */ = {
+			isa = PBXGroup;
+			children = (
+				F11EA699230A3A5B00873BCA /* readme */,
+				F11EA689230A361000873BCA /* BaseControllerConfigure.plist */,
+				F11EA68A230A361000873BCA /* navigationBar.plist */,
+			);
+			path = PlistConfigure;
+			sourceTree = "<group>";
+		};
+		F11EA68D230A385300873BCA /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				F11EA694230A387A00873BCA /* my_g@3x.png */,
+				F11EA692230A387300873BCA /* my@3x.png */,
+				F11EA690230A386D00873BCA /* home_g@3x.png */,
+				F11EA68E230A385A00873BCA /* home@3x.png */,
+			);
+			path = tabbar;
+			sourceTree = "<group>";
+		};
+		F11EA696230A387F00873BCA /* backReturnImage */ = {
+			isa = PBXGroup;
+			children = (
+				F11EA697230A38CB00873BCA /* login-return@3x.png */,
+			);
+			path = backReturnImage;
+			sourceTree = "<group>";
+		};
+		F11EA699230A3A5B00873BCA /* readme */ = {
+			isa = PBXGroup;
+			children = (
+				F11EA69A230A3D1C00873BCA /* index.html */,
+			);
+			path = readme;
+			sourceTree = "<group>";
+		};
+		F1DC4E0C2302521F0073D7D4 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				F1DC4E0D230252360073D7D4 /* HomeViewController.h */,
+				F1DC4E0E230252360073D7D4 /* HomeViewController.m */,
+				F1DC4E10230253E60073D7D4 /* MeViewController.h */,
+				F1DC4E11230253E60073D7D4 /* MeViewController.m */,
+			);
+			name = Section;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,8 +363,16 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				F11EA698230A38CB00873BCA /* login-return@3x.png in Resources */,
+				F11EA693230A387300873BCA /* my@3x.png in Resources */,
+				F11EA691230A386D00873BCA /* home_g@3x.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				F11EA68B230A361000873BCA /* BaseControllerConfigure.plist in Resources */,
+				F11EA68C230A361000873BCA /* navigationBar.plist in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				F11EA69B230A3D1C00873BCA /* index.html in Resources */,
+				F11EA68F230A385A00873BCA /* home@3x.png in Resources */,
+				F11EA695230A387A00873BCA /* my_g@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,8 +449,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* RGAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* RGViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				F1DC4E0F230252360073D7D4 /* HomeViewController.m in Sources */,
+				F1DC4E12230253E60073D7D4 /* MeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

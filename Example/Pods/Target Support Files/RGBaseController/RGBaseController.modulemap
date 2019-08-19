@@ -1,0 +1,6 @@
+framework module RGBaseController {
+  umbrella header "RGBaseController-umbrella.h"
+
+  export *
+  module * { export * }
+}
